@@ -1,0 +1,54 @@
+.left-header {
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+
+    .content {
+        padding-bottom: 18vh;
+
+        .messsage {
+            .heading {
+                position: relative;
+                color: #0a5f32;
+                letter-spacing: 0.5px;
+                .usp {
+                    color: #14B15D;
+                }
+                .flower {
+                    position: absolute;
+                    bottom: 8px;
+                }
+            }
+        }
+        .cta {
+            .cta-button {
+                display: block;
+                border: 0px;
+                color: rgb(255, 255, 255);
+                font-weight: 800;
+                font-size: 16px;
+                background-color: #009b60;
+                padding: 13px 45px;
+                box-shadow: 6px 6px 0px 0px #004530;
+                -webkit-box-shadow: 6px 6px 0px 0px #004530;
+                -moz-box-shadow: 6px 6px 0px 0px #004530;
+                transition: all ease 0.3s;
+                &:hover {
+                    transition: all ease 0.3s;
+                    cursor: pointer;
+                    box-shadow: 1px 1px 2px 0px #004530;
+                    -webkit-box-shadow: 1px 1px 2px 0px #004530;
+                    -moz-box-shadow: 1px 1px 2px 0px #004530;
+                }
+            }
+            .cta-help {
+                display: block;
+                font-size: 12px;
+                margin-top: 15px;
+                padding-left: 10px;
+                font-weight: 300;
+                color:#045a2c;
+            }
+        }
+    }
+}
