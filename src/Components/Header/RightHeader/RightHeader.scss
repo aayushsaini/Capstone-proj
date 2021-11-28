@@ -2,10 +2,28 @@
     min-width: 50%;
     display: flex;
     align-items: center;
-    // background-color: antiquewhite;
-    align-items: center;
-    img {
-        padding-bottom: 13vh;
-        margin-left: 2vw;
+    position: relative;
+
+    .leaf2 {
+        position: absolute;
+        top: 5vh;
+        right: 4vw;
+        height: 19px;
+        width: 19px;
+    }
+
+    .leaf3 {
+        position: absolute;
+        top: 75vh;
+        right: -2vw;
+        height: 25px;
+        width: 25px;
+        transform: rotate(25deg);
+    }
+    .content {
+        img {
+            padding-bottom: 13vh;
+            margin-left: 2vw;
+        }
     }
 }

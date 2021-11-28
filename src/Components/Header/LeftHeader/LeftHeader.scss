@@ -2,12 +2,23 @@
     display: flex;
     min-width: 50%;
     align-items: center;
+    position: relative;
+    
+    .leaf1 {
+        position: absolute;
+        top: 58vh;
+        left: 23vw;
+        width: 20px;
+        height: 20px;
+    }
 
     .content {
         padding-bottom: 18vh;
-
         .messsage {
+            width: max-content;
             .heading {
+                font-size: 36px;
+                line-height: 40px;
                 position: relative;
                 color: #0a5f32;
                 letter-spacing: 0.5px;
@@ -16,7 +27,7 @@
                 }
                 .flower {
                     position: absolute;
-                    bottom: 8px;
+                    bottom: 2px;
                 }
             }
         }
@@ -27,9 +38,10 @@
                 color: rgb(255, 255, 255);
                 font-weight: 800;
                 font-size: 16px;
-                background-color: #009b60;
+                // background-color: #009b60;
+                background-color: #00ac72;
                 padding: 13px 45px;
-                box-shadow: 6px 6px 0px 0px #004530;
+                box-shadow: 6px 6px 0px 0px #018150;
                 -webkit-box-shadow: 6px 6px 0px 0px #004530;
                 -moz-box-shadow: 6px 6px 0px 0px #004530;
                 transition: all ease 0.3s;
